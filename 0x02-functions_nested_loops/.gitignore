@@ -1,3 +1,4 @@
 
 # Do not upload files
 _putchar.c
+*.out
