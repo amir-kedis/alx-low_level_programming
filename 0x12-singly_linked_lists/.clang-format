@@ -7,3 +7,4 @@ BraceWrapping:
   AfterFunction: true
   BeforeElse: true
   BeforeWhile: true
+  AfterStruct: true
