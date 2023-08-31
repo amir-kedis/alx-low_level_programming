@@ -1,6 +1,6 @@
 #include "main.h"
 
-#define BITS_IN_ULINT 8 * 8
+#define BITS_IN_ULINT (8 * 8)
 
 /**
  * print_binary - prints the binary representation of a number
@@ -26,6 +26,6 @@ void print_binary(unsigned long int n)
 	}
 }
 
-/* This code starts from the most significant bit and prints the value of the
- * bit at each position. It uses a flag to determine when to print the value of
- * the bit. The flag is set when the first 1 is encountered. */
+/* starts from the most significant bit and prints the value of the */
+/* bit at each position. It uses a flag to determine when to print the value */
+/* of the bit. The flag is set when the first 1 is encountered. */

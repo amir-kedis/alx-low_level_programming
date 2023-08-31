@@ -21,5 +21,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	return (count);
 }
 
-/* shifting both numbers to the right by 1 and comparing the last bit of each
- * number to see if they are different. If they are, increment count */
+/*
+ * shifting both numbers to the right by 1 and comparing the last bit of each
+ * number to see if they are different. If they are, increment count
+ */

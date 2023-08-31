@@ -2,6 +2,7 @@
 UseTab: Always
 TabWidth: 2
 BreakBeforeBraces: Custom
+ColumnLimit: 79
 BraceWrapping:
   AfterControlStatement: Always
   AfterFunction: true

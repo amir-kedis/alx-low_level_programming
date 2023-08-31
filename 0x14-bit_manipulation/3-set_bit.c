@@ -15,5 +15,7 @@ int set_bit(unsigned long int *n, unsigned int index)
 	return (1);
 }
 
-/* shifting gets the 1 to the index of the bit you want to set and then ORing
- * with the number sets the bit to 1 if it was 0 and does nothing if it was 1 */
+/*
+ * shifting gets the 1 to the index of the bit you want to set and then ORing
+ * with the number sets the bit to 1 if it was 0 and does nothing if it was 1
+ */
