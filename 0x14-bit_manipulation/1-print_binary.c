@@ -17,7 +17,7 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (i = BITS_IN_ULINT; i >= 0; i--)
+	for (i = BITS_IN_ULINT - 1; i >= 0; i--)
 	{
 		if ((n >> i) & 1)
 			flag = 1;
